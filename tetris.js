@@ -16,8 +16,7 @@ function drawSquare(x,y,color){
     ctx.strokeRect(x*SQ,y*SQ,SQ,SQ);
 }
 
-// create the board
-
+//create and draw board
 let board = [];
 for( r = 0; r <ROW; r++){
     board[r] = [];
@@ -26,7 +25,6 @@ for( r = 0; r <ROW; r++){
     }
 }
 
-// draw the board
 function drawBoard(){
     for( r = 0; r <ROW; r++){
         for(c = 0; c < COL; c++){
@@ -67,7 +65,6 @@ function Piece(shape,color){
     this.shapeN = 0; // we start from the first pattern
     this.activeShape = this.shape[this.shapeN];
 
-    // we need to control the pieces
     this.x = 3;
     this.y = -2;
 }
