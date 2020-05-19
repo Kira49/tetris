@@ -1,0 +1,21 @@
+#grad {
+  background-image: linear-gradient(to bottom right, red, orange, white, gray, black);
+}
+#score{
+    display: inline-block;
+}
+div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+canvas{
+    display: block;
+    margin:0 auto;
+}
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
